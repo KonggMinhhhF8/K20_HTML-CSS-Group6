@@ -1,4 +1,3 @@
-# K20_HTML-CSSGroup6
-Dự án cuối module K20 HTML CSS
-# Link Figma
-https://www.figma.com/design/SaNZJvyd5HTXtu4MjTiNyh/HTML-CSS-UI-Kit-2?node-id=4-47150&p=f&t=LJDwPn7pnbIcqVHr-0
+# Nesting CSS chỉ áp dụng cho các phiên bản trình duyệt sau: https://caniuse.com/css-nesting
+
+# tb.css chỉ là bổ sung, không chỉnh chu, không có trong yêu cầu đề.

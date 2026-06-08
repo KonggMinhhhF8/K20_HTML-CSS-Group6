@@ -1,0 +1,277 @@
+@media screen and (max-width: 1919px) {
+    .journey {
+        gap: 60px;
+
+        .journey__intro-box {
+
+            .journey__desc {
+                margin-top: 10px;
+            }
+
+            .journey__stats {
+                margin-top: 50px;
+                gap: 16px;
+
+                .journey__stat {
+                    gap: 2px;
+                    padding: 20px;
+                    border-radius: 10px;
+
+                    .journey__stat-value {
+                        font-size: 3rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .values {
+        gap: 60px;
+
+        .values__content {
+            .values__desc {
+                margin-top: 10px;
+            }
+        }
+
+        .values__list {
+            --padding: 50px;
+            box-shadow: 0 0 0 8px #191919;
+
+            .values__item {
+                --padding: 24px;
+
+                .values__item-header {
+                    gap: 10px;
+
+                    .values__item-icon {
+                        --icon-size: 28px;
+                        padding: 16px;
+                    }
+
+                    .values__item-title {
+                        font-size: 2rem;
+                    }
+                }
+
+                .values__item-content {
+                    margin-top: 16px;
+                }
+            }
+
+        }
+
+    }
+
+    .achievements {
+        .achievements__heading {
+
+            .achievements__title {
+                font-size: var(--fs-heading-2);
+                color: var(--text-color-heading);
+            }
+
+            .achievements__desc {
+                margin-top: 10px;
+            }
+        }
+
+        .achievements__content {
+            margin-top: 60px;
+            gap: 30px;
+
+            .achievements__item {
+                padding: 40px;
+                border-radius: 10px;
+                box-shadow: 0 0 0 6px #191919;
+
+                .achievements__item-title {
+                    font-size: 2.4rem;
+                }
+
+                .achievements__item-desc {
+                    margin-top: 24px;
+                }
+            }
+        }
+    }
+
+    .guide {
+        .guide__heading {
+            .guide__desc {
+                margin-top: 10px;
+            }
+        }
+
+        .guide__steps {
+            margin-top: 60px;
+            gap: 20px;
+
+            .guide__step {
+                border-radius: 0 10px 10px 10px;
+
+                .guide__step-heading {
+                    padding: 14px 16px;
+                    font-size: 1.6rem;
+                }
+
+                .guide__step-content {
+                    .guide__step-inner-content {
+                        padding: 40px;
+
+                        .guide__step-title {
+                            font-size: 2rem;
+                        }
+
+                        .guide__step-desc {
+                            margin-top: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .team {
+        .team__heading {
+            .team__desc {
+                margin-top: 10px;
+            }
+        }
+
+        .team__members {
+            margin-top: 60px;
+            gap: 20px;
+
+            .team__member {
+                --icon-size: 20px;
+
+                padding: 24px;
+
+                .team__member-header {
+                    .team__member-avatar {
+                        border-radius: 10px;
+                    }
+
+                    .team__member-twitter {
+                        padding: 10px 20px;
+                    }
+                }
+
+                .team__member-body {
+                    .team__member-name {
+                        font-size: 2rem;
+                    }
+
+                    .team__member-role {
+                        margin-top: 4px;
+                    }
+
+                    .team__member-contact {
+                        margin-top: 20px;
+
+                        .team__member-message {
+                            padding: 14px 66px 14px 20px;
+                        }
+
+                        .team__member-send {
+                            top: 10px;
+                            bottom: 10px;
+                            right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .clients {
+        .clients__heading {
+            .clients__desc {
+                margin-top: 10px;
+            }
+        }
+
+        .clients__list {
+            margin-top: 60px;
+            gap: 40px;
+
+            .clients__items {
+                gap: 40px;
+
+                .clients__item {
+                    gap: 40px;
+                    padding: 40px;
+
+                    .clients__item-header {
+                        gap: 20px;
+
+                        .clients__item-brand {
+                            gap: 4px;
+
+                            .clients__item-name {
+                                font-size: 2.4rem;
+                            }
+                        }
+
+                        .clients__view {
+                            padding: 14px 20px;
+                            border-radius: 8px;
+                        }
+                    }
+
+                    .clients__item-data {
+                        .clients__item-data-col {
+                            --icon-size: 20px;
+                            gap: 6px;
+
+                            &:first-child {
+                                padding-right: 20px;
+                            }
+
+                            &:last-child {
+                                padding-left: 20px;
+                            }
+
+                            .clients__item-data-title {
+                                gap: 4px;
+
+                                span {
+                                    font-size: 1.4rem;
+                                }
+                            }
+
+                            .clients__item-data-value {
+                                font-size: 1.6rem;
+                            }
+                        }
+                    }
+
+                    .clients__item-rate {
+                        gap: 10px;
+                        padding: 24px;
+
+                        .client__item-rate-value {
+                            color: #ffffff
+                        }
+                    }
+                }
+            }
+
+            .clients__pagination {
+                padding-top: 16px;
+
+                .clients__pagination-value {
+                    font-size: 1.6rem;
+                }
+
+                .clients__pagination-actions {
+                    .clients__pagination-button {
+                        --icon-size: 24px;
+                        padding: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

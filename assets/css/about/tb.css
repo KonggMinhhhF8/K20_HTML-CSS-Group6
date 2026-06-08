@@ -1,0 +1,316 @@
+@media screen and (max-width: 1439px) {
+    .journey {
+        gap: 40px;
+        align-items: flex-start;
+
+        .journey__intro-box {
+            .journey__desc {
+                margin-top: 8px;
+            }
+
+            .journey__stats {
+                margin-top: 10px;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 16px;
+
+                .journey__stat {
+                    padding: 18px 16px;
+                    border-radius: 10px;
+
+                    .journey__stat-value {
+                        font-size: 2.4rem;
+                        font-weight: 700;
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
+    }
+
+    .values {
+        gap: 40px;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .values__content {
+            flex-shrink: unset;
+
+            .values__desc {
+                margin-top: 8px;
+                width: 100%;
+                max-width: unset;
+            }
+        }
+
+        .values__list {
+            --padding: 50px;
+            box-shadow: 0 0 0 8px #191919;
+
+            .values__item {
+                --padding: 24px;
+
+                .values__item-header {
+                    gap: 10px;
+
+                    .values__item-icon {
+                        --icon-size: 28px;
+                        padding: 16px;
+                    }
+
+                    .values__item-title {
+                        font-size: 2rem;
+                    }
+                }
+
+                .values__item-content {
+                    margin-top: 16px;
+                }
+            }
+
+        }
+    }
+
+    .achievements {
+        .achievements__heading {
+            .achievements__desc {
+                margin-top: 8px;
+            }
+        }
+
+        .achievements__content {
+            flex-direction: column;
+            margin-top: 40px;
+            gap: 20px;
+
+            .achievements__item {
+                flex: unset;
+                width: 100%;
+                padding: 30px;
+                border-radius: 10px;
+                box-shadow: 0 0 0 4px #191919;
+
+                .achievements__item-title {
+                    font-size: 2rem;
+                }
+
+                .achievements__item-desc {
+                    margin-top: 16px;
+                }
+            }
+        }
+    }
+
+    .guide {
+        .guide__heading {
+            .guide__desc {
+                margin-top: 8px;
+            }
+        }
+
+        .guide__steps {
+            margin-top: 40px;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+
+            .guide__step {
+                border-radius: 0 10px 10px 10px;
+
+                .guide__step-heading {
+                    padding: 14px 16px;
+                    font-size: 1.6rem;
+                }
+
+                .guide__step-content {
+                    .guide__step-inner-content {
+                        padding: 30px;
+
+                        .guide__step-title {
+                            font-size: 1.8rem;
+                        }
+
+                        .guide__step-desc {
+                            margin-top: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .team {
+        .team__heading {
+            .team__desc {
+                margin-top: 8px;
+            }
+        }
+
+        .team__members {
+            margin-top: 40px;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: stretch;
+            gap: 20px;
+
+            .team__member {
+                --icon-size: 20px;
+
+                flex: unset;
+                width: calc((100% - 20px) / 2);
+                gap: 40px;
+                padding: 20px;
+
+                .team__member-header {
+                    .team__member-avatar {
+                        border-radius: 10px;
+                    }
+
+                    .team__member-twitter {
+                        padding: 10px 20px;
+                    }
+                }
+
+                .team__member-body {
+
+                    .team__member-name {
+                        font-size: 1.8rem;
+                    }
+
+                    .team__member-role {
+                        margin-top: 2px;
+                    }
+
+                    .team__member-contact {
+                        margin-top: 16px;
+
+                        .team__member-message {
+                            padding: 18px 76px 18px 24px;
+                        }
+
+                        .team__member-send {
+                            top: 14px;
+                            bottom: 14px;
+                            right: 14px;
+                            border: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .clients {
+        .clients__heading {
+            .clients__desc {
+                margin-top: 8px;
+            }
+        }
+
+        .clients__list {
+            margin-top: 40px;
+            gap: 30px;
+
+            .clients__items {
+                --cols: 1;
+                flex-wrap: nowrap;
+                overflow-x: auto;
+                scroll-behavior: smooth;
+                scroll-snap-type: x mandatory;
+                padding: 6px;
+
+                &::-webkit-scrollbar {
+                    display: none;
+                }
+
+                .clients__item {
+                    scroll-snap-align: center;
+                    scroll-snap-stop: always;
+                    flex-shrink: 0;
+                    gap: 30px;
+                    padding: 24px;
+                    border-radius: 10px;
+                    box-shadow: 0 0 0 6px #191919;
+
+                    .clients__item-header {
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: flex-start;
+                        gap: 20px;
+
+                        .clients__item-brand {
+                            flex-direction: column;
+                            gap: 2px;
+
+                            .clients__item-name {
+                                font-size: 2rem;
+                            }
+                        }
+
+                        .clients__view {
+                            width: 100%;
+                            padding-block: 14px;
+                            text-align: center;
+                            border-radius: 8px;
+                        }
+                    }
+
+                    .clients__item-data {
+                        .clients__item-data-col {
+                            --icon-size: 18px;
+                            gap: 4px;
+
+                            &:first-child {
+                                padding-right: 16px;
+                            }
+
+                            &:last-child {
+                                padding-left: 16px;
+                            }
+
+                            .clients__item-data-title {
+                                gap: 6px;
+
+                                span {
+                                    font-size: 1.2rem;
+                                }
+                            }
+
+                            .clients__item-data-value {
+                                font-size: 1.4rem;
+                            }
+                        }
+                    }
+
+                    .clients__item-rate {
+                        gap: 8px;
+                        padding: 20px;
+                    }
+                }
+            }
+
+            .clients__pagination {
+                border-top: none;
+                padding-top: 0;
+                position: relative;
+
+                .clients__pagination-value {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    font-size: 1.4rem;
+                }
+
+                .clients__pagination-actions {
+                    width: 100%;
+                    justify-content: space-between;
+
+                    .clients__pagination-button {
+                        --icon-size: 24px;
+                        padding: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
