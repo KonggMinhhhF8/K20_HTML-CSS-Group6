@@ -169,7 +169,7 @@
                     position: relative;
                     gap: 16px;
 
-                    &::before {
+                    &:nth-child(1)::before {
                         content: "";
 
                         position: absolute;
