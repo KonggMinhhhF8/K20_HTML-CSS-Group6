@@ -59,6 +59,22 @@
                 border-bottom: 1px solid var(--color-border);
             }
 
+            .header__nav-foot {
+                padding: 16px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                border-top: 1px solid var(--color-border);
+
+                &>.header__contact {
+                    display: block;
+                    border-radius: 99rem;
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+
             .header__nav-links {
                 flex: 1;
                 flex-direction: column;
